@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamMate", "TeamMate.csproj", "{9CC51AC1-63B8-45FA-8369-8EBC81D39FB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamMateContext", "TeamMateContex\TeamMateContext.csproj", "{AEF9F911-9217-4076-B144-FC2C2329CE8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{9CC51AC1-63B8-45FA-8369-8EBC81D39FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CC51AC1-63B8-45FA-8369-8EBC81D39FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CC51AC1-63B8-45FA-8369-8EBC81D39FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF9F911-9217-4076-B144-FC2C2329CE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF9F911-9217-4076-B144-FC2C2329CE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF9F911-9217-4076-B144-FC2C2329CE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF9F911-9217-4076-B144-FC2C2329CE8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = TeamMate.csproj

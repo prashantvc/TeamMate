@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using TeamMateContext;
 
 namespace TeamMate
 {
@@ -13,10 +14,13 @@ namespace TeamMate
 	public class Activity1 : Activity
 	{
 		int count = 1;
+		TeamCityContext _teamCityContext;
 
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
+			_teamCityContext = new TeamCityContext ();
+
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
@@ -26,6 +30,8 @@ namespace TeamMate
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			
 			button.Click += delegate {
+				var projects = _teamCityContext.GetProjects ();
+				Console.WriteLine (projects);
 				button.Text = string.Format ("{0} clicks!", count++);
 			};
 		}

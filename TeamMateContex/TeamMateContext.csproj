@@ -5,16 +5,15 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9CC51AC1-63B8-45FA-8369-8EBC81D39FB5}</ProjectGuid>
+    <ProjectGuid>{AEF9F911-9217-4076-B144-FC2C2329CE8D}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>TeamMate</RootNamespace>
+    <RootNamespace>TeamMateContext</RootNamespace>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidResgenClass>Resource</AndroidResgenClass>
-    <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
-    <AssemblyName>TeamMate</AssemblyName>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AssemblyName>TeamMateContex</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -26,7 +25,6 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>False</ConsolePause>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AndroidSupportedAbis>armeabi</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -45,24 +43,15 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="TeamCityContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
-    <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
-    <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="TeamMateContex\TeamMateContext.csproj">
-      <Project>{AEF9F911-9217-4076-B144-FC2C2329CE8D}</Project>
-      <Name>TeamMateContext</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
