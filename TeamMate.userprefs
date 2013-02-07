@@ -1,0 +1,17 @@
+﻿<Properties GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainActivity.cs">
+    <Files>
+      <File FileName="TeamMateContex\Project.cs" Line="25" Column="2" />
+      <File FileName="TeamMateContex\TeamCityContext.cs" Line="22" Column="1" />
+      <File FileName="MainActivity.cs" Line="18" Column="3" />
+      <File FileName="TeamMateContex\Resources\values\Strings.xml" Line="1" Column="1" />
+      <File FileName="TeamMateContex\Resources\AboutResources.txt" Line="19" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TeamMate AndroidDeviceId-Debug="emulator-5554" />
+</Properties>
